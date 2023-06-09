@@ -1,3 +1,5 @@
+When updating this, make sure to branch of the latest tag, not master, since that can cause issues!
+
 <p align="center">
   <a href="https://cocoapods.org/pods/Firebase">
     <img src="https://img.shields.io/github/v/release/Firebase/firebase-ios-sdk?style=flat&label=CocoaPods"/>
