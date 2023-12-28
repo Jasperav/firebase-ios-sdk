@@ -144,8 +144,8 @@ let package = Package(
       "2.1.0" ..< "3.0.0"
     ),
     .package(
-      url: "https://github.com/apple/swift-protobuf.git",
-      "1.19.0" ..< "2.0.0"
+      url: "https://github.com/Jasperav/swift-protobuf.git",
+      from: "1.25.2"
     ),
     googleAppMeasurementDependency(),
     .package(
