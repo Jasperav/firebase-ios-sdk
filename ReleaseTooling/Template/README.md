@@ -27,10 +27,6 @@ To integrate a Firebase SDK with your app:
    > ⚠ To disable AdId support, do not copy
    > `GoogleAppMeasurementIdentitySupport.xcframework`.
 
-   > ⚠ If the app does not use any Firebase Swift specific APIs, you do not need
-   > to copy any xcframeworks whose name includes `Swift` for this and the next
-   > step.
-
 6. Drag each framework from the directory named after the SDK into the Project
    Navigator pane. Note that there may be no additional frameworks, in which
    case this directory will be empty. For instance, if you want the Database
@@ -97,5 +93,5 @@ You can get samples for Firebase from https://github.com/firebase/quickstart-ios
 Note that several of the samples depend on SDKs that are not included with
 this archive; for example, FirebaseUI. For the samples that depend on SDKs not
 included in this archive, you'll need to use CocoaPods or use the
-[ZipBuilder](https://github.com/firebase/firebase-ios-sdk/tree/master/ReleaseTooling)
+[ZipBuilder](https://github.com/firebase/firebase-ios-sdk/tree/main/ReleaseTooling)
 to create your own custom binary frameworks.

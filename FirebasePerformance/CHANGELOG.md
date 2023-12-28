@@ -1,3 +1,9 @@
+# 10.18.0
+- [fixed] Fix a Xcode 15.1 build warning (#12027).
+
+# 10.17.0
+- [fixed] Fix a second Xcode 15 runtime warning (#11821).
+
 # 10.16.0
 - [fixed] Fixed a memory leak regression when generating session events (#11725).
 - [fixed] Fix Xcode 15 runtime warning (#11821).

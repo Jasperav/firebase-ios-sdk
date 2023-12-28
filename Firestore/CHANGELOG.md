@@ -1,3 +1,17 @@
+# 10.19.0
+- [fixed] Made an optimization to the synchronization logic for resumed queries
+  to only re-download locally-cached documents that are known to be out-of-sync. (#12044)
+
+# 10.18.0
+- [fixed] Fix Firestore build for visionOS on Xcode 15.1. (#12023)
+
+# 10.17.0
+- [feature] Add support for sum and average aggregate queries.
+- [feature] The `FirebaseFirestore` module now contains Firebase Firestore's
+  Swift-only APIs that were previously only available via the
+  `FirebaseFirestoreSwift` extension SDK. See the
+  `FirebaseFirestoreSwift` release note from this release for more details.
+
 # 10.16.0
 - [fixed] Fixed an issue where Firestore's binary SwiftPM distribution would
   not link properly when building a target for testing. This issue affected
@@ -451,7 +465,7 @@
 - [changed] Firestore no longer bundles a copy of the gRPC certificates, now
   that the gRPC-C++ CocoaPod includes them. CocoaPods users should be updated
   automatically. Carthage users should follow the [updated
-  instructions](https://github.com/firebase/firebase-ios-sdk/blob/master/Carthage.md)
+  instructions](https://github.com/firebase/firebase-ios-sdk/blob/main/Carthage.md)
   to get `gRPCCertificates.bundle` from the correct location.
 
 # 0.16.1
