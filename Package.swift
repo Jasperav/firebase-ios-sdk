@@ -145,7 +145,7 @@ let package = Package(
     ),
     .package(
       url: "https://github.com/Jasperav/swift-protobuf.git",
-      from: "1.25.1"
+      from: "1.25.2"
     ),
     googleAppMeasurementDependency(),
     .package(
